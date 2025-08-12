@@ -1,0 +1,10 @@
+# pip freeze > requirements.txt
+# 현재 설치된 버전을 여기에 작성한다.
+asgiref==3.9.1
+Django==5.2.5
+sqlparse==0.5.3
+tzdata==2025.2
+
+# $ pip install -r requirements.txt
+# 직접 한땀한땀 버전을 설치하는게 아니라 그냥 이 파일을 읽고 알아서 맞춰줘~ 하는 느낌
+
