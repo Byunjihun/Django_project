@@ -31,7 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'articles',
+   'articles', # ← 새로 만든 'articles' 앱 추가
+    'rest_framework', # ← DRF 추가
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
