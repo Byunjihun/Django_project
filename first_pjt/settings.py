@@ -122,3 +122,16 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# myproject/settings.py 또는 first_pjt/settings.py
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'my_django_db',  # 사용할 MySQL 데이터베이스 이름
+        'USER': 'root',  # MySQL 사용자 이름 (예: root)
+        'PASSWORD': 'root',  # MySQL 비밀번호
+        'HOST': 'localhost',      # 데이터베이스 호스트 주소
+        'PORT': '3306',           # MySQL 포트 (기본값)
+    }
+}
